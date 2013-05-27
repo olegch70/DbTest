@@ -1,0 +1,39 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fill DB"
+            android:id="@+id/btFillDb"
+            android:layout_marginLeft="42dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="14dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="clear before full"
+            android:id="@+id/cbClear"
+            android:layout_alignBaseline="@+id/btFillDb"
+            android:layout_alignBottom="@+id/btFillDb"
+            android:layout_toRightOf="@+id/btFillDb"
+            android:checked="false" />
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Db Context"
+        android:id="@+id/btShowDbContent"
+        android:layout_marginTop="24dp" />
+</LinearLayout>
