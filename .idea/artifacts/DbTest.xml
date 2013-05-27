@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="apk" build-on-make="true" name="DbTest">
+    <output-path>$PROJECT_DIR$/out/artifacts/DbTest</output-path>
+    <properties id="android-properties">
+      <options>
+        <option name="includeSystemProGuardCfgFile" value="true" />
+        <option name="keyAlias" value="alias_111111" />
+        <option name="keyPassword" value="MTExMTEx&#13;&#10;" />
+        <option name="keyStorePassword" value="MTExMTEx&#13;&#10;" />
+        <option name="keyStoreUrl" value="file://$PROJECT_DIR$/../../key_store/key_store_file_111111.str" />
+        <option name="proGuardCfgFileUrl" value="file://" />
+        <option name="signingMode" value="RELEASE_SIGNED" />
+      </options>
+    </properties>
+    <root id="archive" name="DbTest.apk">
+      <element id="android-final-package" facet="DbTest/android/Android" />
+    </root>
+  </artifact>
+</component>
