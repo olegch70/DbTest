@@ -71,6 +71,9 @@ public class DbContentActivity extends Activity {
 
                 TextView vKind = (TextView) view.findViewById(R.id.tvKind);
                 vKind.setText(cursor.getString(idxKind));
+				
+				TextView vDatePay = (TextView) findViewById(R.id.tvPayDate);
+			    vDatePay.setText("rest");
 //                super.bindView(view, context, cursor);
             }
         };
